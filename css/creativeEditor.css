@@ -1,0 +1,38 @@
+
+.creativeEditorContainer {
+    margin-top: 40px;
+    background: #f9f9f9;
+    padding: 20px;
+}
+.creativeEditor, .creativeEditor * { box-sizing: border-box; }
+
+.creativeEditor {
+    width: 100%;
+    margin: 0;
+    padding: 4px;
+    display: block;
+    white-space: pre;
+    background:  #fff;
+    border:  solid 1px #ddd;
+    margin-top:  20px;
+    margin-bottom: 20px;
+}
+.frameBody {
+    font-family: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Segoe UI Symbol", "Apple Color Emoji", "Segoe UI Emoji";
+    color: #222222;
+    margin: 0;
+}
+
+.disable {
+    cursor: not-allowed;
+    background: #efefef;
+}
+.editor-buttons span {
+    display: inline-block;
+}
+.editor-buttons {
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 2px 0;
+}

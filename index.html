@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>: Creative Jquery Editor Plugin:</title>
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/creativeEditor.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="container creativeEditorContainer">
+  <form id="editorform" method="post">
+<textarea id="udescription" name="udescription" class="creativeEditor creativeEditor"></textarea>
+
+  <button id="submitForm" class="btn btn-primary">Save</button>
+  </form>
+</div>
+
+
+
+
+  <!-- jQuery -->
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <!-- Twitter Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/creativeEditor.js"></script>
+
+
+<script src="js/creativeEditor.js"></script>
+<script>
+$(document).ready(function(){
+	$('.creativeEditor').creativeEditor({
+		content_css_url: 'css/creativeEditor.css',
+		height: 250
+	});
+});
+</script>
+</body>
+</html>
